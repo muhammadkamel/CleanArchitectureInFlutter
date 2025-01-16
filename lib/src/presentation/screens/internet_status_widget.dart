@@ -38,7 +38,7 @@ class _InternetStatusWidgetState extends State<InternetStatusWidget> {
       height: 40,
       margin: EdgeInsets.all(5),
       decoration: BoxDecoration(
-        color: context.colorScheme.onSurface.withOpacity(0.1),
+        color: context.colorScheme.onSurface.withValues(alpha: 0.1),
         borderRadius: const BorderRadius.all(
           Radius.circular(10),
         ),

@@ -46,7 +46,8 @@ class RatingWidget extends StatelessWidget {
                         text: "($count)",
                         style: context.bodyMedium.copyWith(
                           fontWeight: FontWeight.bold,
-                          color: context.colorScheme.onSurface.withOpacity(0.8),
+                          color: context.colorScheme.onSurface
+                              .withValues(alpha: 0.8),
                         ),
                       ),
                     ],

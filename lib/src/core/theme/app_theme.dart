@@ -47,7 +47,7 @@ ThemeData getLightTheme(BuildContext context) {
     ),
     cardTheme: CardTheme(
       margin: EdgeInsets.zero,
-      color: context.colorScheme.onSurface.withOpacity(0.1),
+      color: context.colorScheme.onSurface.withValues(alpha: 0.1),
       elevation: 0.0,
       shape: RoundedRectangleBorder(
         borderRadius: BorderRadius.circular(16),

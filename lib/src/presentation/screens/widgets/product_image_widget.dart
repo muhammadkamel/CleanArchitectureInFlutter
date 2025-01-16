@@ -14,7 +14,7 @@ class ProductImageWidget extends StatelessWidget {
       width: 120,
       height: 120,
       decoration: BoxDecoration(
-        color: context.colorScheme.onSurface.withOpacity(0.1),
+        color: context.colorScheme.onSurface.withValues(alpha: 0.1),
         borderRadius: BorderRadius.circular(16),
         image: DecorationImage(
           image: imageProvider,

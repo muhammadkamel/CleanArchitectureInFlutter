@@ -15,34 +15,34 @@ dependencies:
     sdk: flutter
 
   cupertino_icons: ^1.0.8
-  equatable: ^2.0.5
+  equatable: ^2.0.7
   dartz: ^0.10.1
-  go_router: ^14.3.0
-  get_it: ^8.0.1
-  connectivity_plus: ^6.1.0
-  fluentui_system_icons: ^1.1.260
-  flutter_bloc: ^8.1.6
-  bloc: ^8.1.4
+  go_router: ^14.6.3
+  get_it: ^8.0.3
+  connectivity_plus: ^6.1.2
+  fluentui_system_icons: ^1.1.270
+  flutter_bloc: ^9.0.0
+  bloc: ^9.0.0
   dio: ^5.7.0
-  envied: ^0.5.4+1
+  envied: ^1.0.1
   hive_flutter: ^1.1.0
   hive: ^2.2.3
   gap: ^3.0.1
   cached_network_image: ^3.4.1
-  skeletonizer: ^1.4.2
+  skeletonizer: ^1.4.3
   flutter_hooks: ^0.20.5
-  internet_connection_checker_plus: ^2.5.2
+  internet_connection_checker_plus: ^2.7.0
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
 
   flutter_lints: ^5.0.0
-  build_runner: ^2.4.13
+  build_runner: ^2.4.14
   hive_generator: ^2.0.1
-  envied_generator: ^0.5.4+1
+  envied_generator: ^1.0.1
   mocktail: ^1.0.4
-  bloc_test: ^9.1.7
+  bloc_test: ^10.0.0
 
 flutter:
   uses-material-design: true

@@ -55,12 +55,13 @@ class CartScreen extends StatelessWidget {
                             alignment: AlignmentDirectional.centerEnd,
                             decoration: BoxDecoration(
                               // borderRadius: BorderRadius.circular(16),
-                              color: context.primaryColor.withOpacity(0.1),
+                              color:
+                                  context.primaryColor.withValues(alpha: 0.1),
                               border: Border.all(
                                 color: Theme.of(context)
                                     .colorScheme
                                     .outline
-                                    .withOpacity(0.1),
+                                    .withValues(alpha: 0.1),
                               ),
                             ),
                             child: Center(

@@ -90,7 +90,7 @@ class ProductDetailsBody extends StatelessWidget {
                 Text(
                   product.description,
                   style: context.bodyLarge.copyWith(
-                    color: context.colorScheme.onSurface.withOpacity(0.8),
+                    color: context.colorScheme.onSurface.withValues(alpha: 0.8),
                   ),
                 ),
                 Gap(Spacing.xLarge),
